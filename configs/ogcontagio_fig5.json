@@ -1,0 +1,20 @@
+{
+  "model": "pdfrf",
+  "poison_size": [
+    0.02
+  ],
+  "watermark_size": [
+    30
+  ],
+  "target_features": "feasible",
+  "feature_selection": [
+    "combined_shap"
+  ],
+  "value_selection": [
+    "combined_shap"
+  ],
+  "iterations": 50,
+  "k_perc": 1.0,
+  "k_data": "train",
+  "dataset": "ogcontagio"
+}

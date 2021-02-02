@@ -1,0 +1,26 @@
+{
+  "model": "embernn",
+  "poison_size": [
+    0.005,
+    0.01,
+    0.02,
+    0.04
+  ],
+  "watermark_size": [
+    17
+  ],
+  "target_features": "feasible",
+  "feature_selection": [
+    "shap_largest_abs",
+    "combined_shap"
+  ],
+  "value_selection": [
+    "argmin_Nv_sum_abs_shap",
+    "min_population_new",
+    "combined_shap"
+  ],
+  "iterations": 5,
+  "dataset": "ember",
+  "k_perc": 1.0,
+  "k_data": "train"
+}

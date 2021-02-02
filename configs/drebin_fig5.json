@@ -1,0 +1,23 @@
+{
+  "model": "linearsvm",
+  "poison_size": [
+    0.005,
+    0.01,
+    0.015,
+    0.02
+  ],
+  "watermark_size": [
+    30
+  ],
+  "target_features": "feasible",
+  "feature_selection": [
+    "combined_additive_shap"
+  ],
+  "value_selection": [
+    "combined_additive_shap"
+  ],
+  "iterations": 10,
+  "k_perc": 1.0,
+  "k_data": "train",
+  "dataset": "drebin"
+}
